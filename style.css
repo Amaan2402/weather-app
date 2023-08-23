@@ -118,3 +118,9 @@
 .visibility-hidden {
     visibility: hidden;
 }
+
+@media(max-width:500px) {
+    .main-box{
+        width: 400px;
+    }
+}
