@@ -1,0 +1,120 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.inp-box {
+    padding-top: 29px;
+    height: 55px;
+    width: 410px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-box {
+    height: 520px;
+    width: 412px;
+    margin: auto;
+    margin-top: 4%;
+    border-radius: 17px;
+    box-shadow:0px 1px 26px 3px rgba(0, 0, 0, 0.1);
+    background  : linear-gradient(135deg, #00feba, #686292);
+};
+
+.inp-box input {
+    height: 40px;
+}
+
+.search-btn {
+    background: white;
+    height: 51px;
+    width: 51px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+.user-input {
+    height: 47px;
+    margin-left: 23px;
+    border-radius: 32px;
+    border: 1px solid white;
+    width: 285px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.inp-box img {
+    padding-top: 5px;
+    height: 27px;
+}
+
+.user-input:focus {
+    outline: none;
+}
+
+.weather-img {
+    height: 148px;
+    width: 162px;
+    position: relative;
+    left: 128px;
+    top: 19px;
+}
+
+.weather-img img {
+    height: 153px;
+    margin-top: -13px;
+}
+
+.degree {
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 200;
+}
+
+.city {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: -50px;
+    font-weight: 400;
+}
+
+.footer {
+    height: 100px;
+    width: 400px;
+    display: flex;
+    margin-top: -17px;
+    margin-left: 7px;
+}
+
+.footer img {
+    height: 40px;
+}
+
+.footer-texts {
+    display: inline-block;
+    font-size: 27px;
+    margin-left: 10px;
+    position: relative;
+    color: white;
+    bottom: 9px;
+}
+
+.texts {
+    position: relative;
+    bottom: 53px;
+    color: white;
+    font-size: 20px;
+    left: 57px; 
+}
+
+.humidityS {
+    left: 71px;
+}
+
+.visibility-hidden {
+    visibility: hidden;
+}

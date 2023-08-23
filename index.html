@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather forecast</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-box">
+        <div class="inp-box">
+            <input type="text" placeholder="Enter city name" class="user-input" required>
+            <button class="search-btn"><img src="./images/search.png"></button>
+        </div>
+
+        <div class="weather-img">
+            <img src="./images/clear.png" id="weather-img">
+        </div>
+
+        <h1 class="degree">30&deg;c</h1>
+        <h1 class="city">Kolkata</h1>
+
+        <div class="footer">
+            <div class="humidity" style="width: 200px;">
+                <img src="./images/humidity.png" alt="" style="margin-left: 10px;">
+                <p class="footer-texts humidity-text">48%</p>
+                <p class="texts humidityS">Humidity</p>
+            </div>
+            <div class="wind-speed">
+                <img src="./images/wind.png" alt="">
+                <p class="footer-texts wind-speed-text">10.29 km/h</p>
+                <p class="texts">Wind Speed</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
